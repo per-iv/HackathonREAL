@@ -1,0 +1,104 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+/* Boton Inicio */
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+:root {
+    --overlay-color: red;
+  }
+
+.overlay {
+    background: var(--overlay-color);
+    opacity: 0.5;
+  }
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.8;
+    background: #f1f1f1;
+    padding: 80px 28px;
+    border-radius: 9px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+   
+ 
+}
+
+h2 {
+    margin-top: -8%;
+
+}
+
+.close-modal {
+    position: absolute;
+    margin-top: 0px;
+    right: 185px;
+    padding: 5px 7px;
+    align-items: center;
+    background-color:#5dc460 ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.report-modal {
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    right: 285px;
+    padding: 5px 7px;
+    background-color: #EF5350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.timer-modal {
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    right: 310px;
+    padding: 5px 7px;
+    background-color: #EF5350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+:root {
+    --overlay-color: red;
+  }
+
+.policia-modal {
+    display: flex;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 5px 7px;
+    background-color: #EF5350;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    visibility: var(--mostrar);
+
+}
