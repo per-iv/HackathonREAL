@@ -8,7 +8,7 @@ header {
   background-color: rgba(7, 7, 7, 0.582) ;
   box-shadow: 0 2px 4px #a8a5a5d3;
   padding: 0 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   color: #c9c1c1bd;
 }
@@ -55,7 +55,7 @@ nav ul {
   background-color: #2b2727;
   padding: 15px;
   border: 2px solid #2b2727;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #b79357;
   text-align: center;
   border-radius: 7px #2b2727;
@@ -102,18 +102,22 @@ nav ul {
 #footer {
   background-color: #c9c1c1bd;
   align-self: flex-end;
-  height: 200px;
-  font-family: 'Roboto Slab', serif;
-  line-height: 1.5;
-  text-align: center;
-
-
+  height: 220px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  width: 1350px;
+  
 }
 
+
 .main-content{
-  font-family: 'Roboto Slab', serif;
-  font-size: 15px;
+  margin-left: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
   line-height: 2.5;
+  margin-right: 200px;
+  word-spacing: 0.2em;
+
 
 }
 
@@ -149,6 +153,6 @@ nav ul {
   width: 500px;
   height: 400px;
   transform: translate(50px, 50px);
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 

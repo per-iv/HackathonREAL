@@ -1,14 +1,41 @@
 function Footer() {
   return (
     <footer id="footer">
-      <h3>Hackaton-2023</h3>
       <p className="main-content">
-        Aguascalientes,Ags <br />
-        <strong>Equipo:</strong> 0-0-48
-        <br />
-        <strong>Integrantes:</strong> Diego Cano, José Cerna, Atzin Cruz,
-        América Susunaga, Ana Paula Martínez, Pablo <br />
-        <strong>Email:</strong> <br />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <div
+            style={{ display: "flex", flexDirection: "column" }}
+            className="integrantes"
+          >
+            <strong>Integrantes</strong> Diego Cano
+            <br /> José Cerna
+            <br /> Atzin Cruz
+            <br />
+            América Susunaga
+            <br />
+            Ana Paula Martínez
+            <br />
+            Pablo Pérez
+            <br />
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <strong>Lugar</strong>Aguascalientes, Ags <br />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <strong>Equipo</strong> 0-0-48
+            <br />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <strong>Email</strong> 0048@gmail.com <br />
+          </div>
+        </div>
       </p>
     </footer>
   );
