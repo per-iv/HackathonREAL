@@ -22,7 +22,8 @@ export function MyRoutes() {
     <Router>
       <Routes>
       <Route exact path="/" element={<Inicio name={userName}/>} />
-        <Route exact path="/Home" element={<Inicio />} />
+        <Route exact path="/Inicio" element={<Inicio />} />
+        <Route exact path="/Home" element={<Home />} />
         <Route exact path="/Datos" element={<Datos/>}/>
         <Route exact path="/Login" element={<Login/>}/>
         <Route exact path="/Signup" element={<Signup/>}/>
