@@ -6,7 +6,7 @@ import ImagenC from './Componentes/ImagenC';
 import Footer from './Componentes/Footer';
 import Rostro from './Componentes/Rostro';
 import Modal from './Componentes/Modal.jsx';
-
+import Siren from './images/Siren.jsx';
 
 function App() {
   return (

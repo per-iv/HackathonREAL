@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Modal.css";
 
-
 export default function Modal() {
-
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
